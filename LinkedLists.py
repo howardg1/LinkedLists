@@ -70,7 +70,7 @@ class LinkedList:
     def remove_node(self, key):
         curr = self.head
         prev = None
-        while curr and curr.data != kay:
+        while curr and curr.data != key:
             prev = curr
             curr = curr.next
         if prev is None:
